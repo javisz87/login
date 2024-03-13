@@ -1,0 +1,68 @@
+<div class="container d-flex justify-content-between flex-wrap py-5 my-5">
+    <section class="bg-light p-5 rounded">
+
+        <form id="registerForm">
+            <div class="row mb-4">
+                <div class="col">
+                    <div class="form-outline">
+                        <input type="text" id="firstName" required class="form-control" />
+                        <label class="form-label" for="firstName">Nombre</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-outline">
+                        <input type="text" id="lastName" required class="form-control" />
+                        <label class="form-label" for="lastName">Apellido</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Age input -->
+            <div class="form-outline mb-4">
+                <input type="number" id="age" required class="form-control" />
+                <label class="form-label" for="age">Edad</label>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input type="email" id="email" required class="form-control" />
+                <label class="form-label" for="email">Email</label>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <input type="password" id="password" required class="form-control" />
+                <label class="form-label" for="password">Contraseña</label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4" id="submit">Resgistrar</button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+                <p>O ingrese con:</p>
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-google"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-twitter"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-1">
+                    <i class="fab fa-github"></i>
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <section class="p-3" style="max-width: 540px;">
+        <img src="../assets/logo1b.png" alt="" class="img-fluid">
+        <h1 class="text-light text-center">Para tu espacio, lo mejor!</h1>
+    </section>
+</div>
+<script src="../js/register.js"></script>
